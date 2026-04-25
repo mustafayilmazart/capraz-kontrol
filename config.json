@@ -1,0 +1,28 @@
+{
+  "aktifAIlar": {
+    "gemini": true,
+    "codex": true,
+    "qwen": true,
+    "claude": true
+  },
+
+  "qwenCommand": "llxprt",
+  "qwenPackage": "@vybestack/llxprt-code",
+  "qwenModel": "qwen2.5-coder-32b",
+  "envFile": ".env",
+
+  "claudeCommand": "claude",
+  "claudeArgs": ["--print", "--dangerously-skip-permissions"],
+
+  "timeoutMs": 120000,
+
+  "jsonOutput": true,
+  "jsonOutputDir": "raporlar/json",
+
+  "notlar": {
+    "gemini": "Google hesabıyla giriş: gemini auth",
+    "codex": "ChatGPT Plus hesabıyla giriş: codex (ilk çalıştırmada login sayfası açılır)",
+    "qwen": "llxprt --setup | Model: qwen2.5-coder-32b",
+    "claude": "Claude Code CLI: claude --print ile çalışır"
+  }
+}

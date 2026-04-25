@@ -1,0 +1,22 @@
+# Yerel sırlar
+.env
+.env.local
+*.pem
+*.key
+
+# Üretilen raporlar (müşteri/iç proje kodu içerebilir)
+raporlar/
+
+# Node
+node_modules/
+
+# Dahili
+proje-durum.json
+CLAUDE.md
+CLAUDE-CODE-TAVSIYE.md
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,19 @@
+{
+  "name": "capraz-kontrol",
+  "version": "1.0.0",
+  "description": "Çapraz AI Kod Review Sistemi — Claude Code + Gemini + Codex + Qwen",
+  "main": "capraz-kontrol.js",
+  "scripts": {
+    "review": "node capraz-kontrol.js",
+    "test": "node capraz-kontrol.js test-dosya.js"
+  },
+  "bin": {
+    "ck": "./capraz-kontrol.js"
+  },
+  "keywords": ["ai", "code-review", "cli", "gemini", "codex", "claude"],
+  "author": "Mustafa Yılmaz — kesif.org",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
