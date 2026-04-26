@@ -44,7 +44,7 @@ Tek bir LLM yanılır. İki LLM aynı şeyde yanıldıysa **endişelen.** Üç b
 ## 🚀 Kurulum
 
 ```bash
-git clone https://github.com/kpmustafayilmaz/capraz-kontrol
+git clone https://github.com/mustafayilmazart/capraz-kontrol
 cd capraz-kontrol
 npm install
 npm link        # 'ck' komutu global PATH'e eklenir
