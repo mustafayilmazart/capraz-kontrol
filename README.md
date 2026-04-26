@@ -45,7 +45,7 @@ Tek bir LLM yanılır. İki LLM aynı şeyde yanıldıysa **endişelen.** Üç b
 
 ```bash
 git clone https://github.com/mustafayilmazart/kesif-capraz-kontrol
-cd capraz-kontrol
+cd kesif-capraz-kontrol
 npm install
 npm link        # 'ck' komutu global PATH'e eklenir
 ```
